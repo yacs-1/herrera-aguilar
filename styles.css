@@ -2,7 +2,7 @@ body{
   background-color:#e0a6ac;
   color: black;
   text-align: left;
-  font-family: Afacad;
+  font-family: cursive;
   margin-left: 10%;
   margin-right: 10%
 }
@@ -11,8 +11,92 @@ body{
   text-align: center;
   font-size: 150%;
   color: black;
-  text-shadow: #d5b0c1 2px 2px;
+  text-shadow: #d5b0c1 3px 3px;
 }
 h2.heading{
   font-size: 200%;
+  
 }
+
+.bordered {
+  border-style:solid;
+    border-color:#d3dbec;
+  border-width:3px;
+  padding: 5px;
+  margin:3px;
+  border-radius: 20px;
+    background-color:#d3dbec;
+      color:#333333
+}
+
+a{
+  text-decoration:none;
+  font-weight:700;
+color:purple;
+}
+a:hover{
+  color:#d1bec5
+}
+#footer{
+  font-size: 120%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
