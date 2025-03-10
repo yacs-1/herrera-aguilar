@@ -1,1 +1,67 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin:0px;
+}
+
+#header {
+  width: 100%;
+  position: sticky;
+  top:0px;
+  background-color:white
+}
+#trophy {
+  float:right;
+  padding:10px;
+  text-align:center;
+  font-size:70%;
+}
+
+#preheader {
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-family:cursive;
+  font-size: 25px;
+  background-color:white;
+}
+
+}
+.heading{
+  text-align: center;
+  font-family:cursive;
+  font-size: 20px;
+}
+#article {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#bg {
+   position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  opacity: 0.5;
+}
+.navlink {
+  display: block;
+  text-decoration: none;
+  color: maroon;
+  margin: auto;
+}
+#links{
+   display: flex;
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  align-content: center;
+}
+#content {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
 
