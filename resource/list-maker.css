@@ -1,1 +1,35 @@
+#to-do-list {
+  list-style-type:none;
+}
+
+#header {
+    margin: 40px 40px 25px;
+    padding: 25px;
+    text-align: center;
+    background-color:#F4C2C2;
+    color: black;
+}
+
+#input-group {
+  text-align:center;
+  font-size: 150%;
+}
+
+#bg {
+  width: 100vw;
+    height: 100vh;
+    z-index: -999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#list-group {
+    text-align: left;
+    margin: 20px 9%;
+    padding: 10px;
+    font-size: 150%;
+     background-color: rgba(255, 255, 255, 0.2);
+    min-height: 350px;
+}
 
