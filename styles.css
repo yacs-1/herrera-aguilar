@@ -29,83 +29,54 @@ h2.heading{
 
 .bordered {
   border-style:solid;
-    border-color:#d3dbec;
+  border-color:#d3dbec;
   border-width:3px;
   padding: 5px;
   margin:3px;
   border-radius: 20px;
-    background-color:#d3dbec;
-      color:#333333
+  background-color:#d3dbec;
+  color:#333333;
 }
 
 a{
   text-decoration:none;
   font-weight:700;
-color:purple;
+  color:purple;
 }
 a:hover{
-  color:#d1bec5
+  color:#d1bec5;
 }
 #footer{
   font-size: 120%;
   text-align: center;
 }
 
+#nav-list {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  list-style-type:none;
+  position:relative;  
+  background-color:#d3dbec;
+}
 
+#nav-list > li {
+  flex-grow: 1;
+  display:inline-block;
+}
 
+#nav-list ul {
+  display: none;
+}
 
+#nav-list li:hover ul{
+  background-color:#d3dbec;
+  color:#d1bec5;
+  display: block;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#nav-list li ul{
+  list-style-type:none;
+  padding: 0px;
+  position:absolute;
+}
