@@ -52,6 +52,7 @@ a:hover{
 }
 
 #nav-list {
+  padding:0px;
   display:flex;
   justify-content: center;
   text-align: center;
@@ -62,7 +63,15 @@ a:hover{
 
 #nav-list > li {
   flex-grow: 1;
+  display:block;
+  position:relative;
+  text-align:center;
+  margin:auto;
+}
+
+#nav-list li a {
   display:inline-block;
+  width:100%
 }
 
 #nav-list ul {
@@ -79,4 +88,5 @@ a:hover{
   list-style-type:none;
   padding: 0px;
   position:absolute;
+  width:100%
 }
