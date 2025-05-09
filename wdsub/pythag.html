@@ -1,1 +1,25 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weekly submission</title>
+    <link rel="stylesheet" href="https://yacs-1.github.io/herrera-aguilar/styles.css">
+  </head>
+  <body>
+    <h1 id="header">Pythag Approximator</h1>
+      <div id="gheader"></div>
+<script src="https://yacs-1.github.io/herrera-aguilar/global-header.js"></script>    
+    
+     <label for="a-input">a=</label>
+     <input id="a-input"></input>
+    <br>
+     <label for="b-input">b=</label>
+     <input id="b-input"></input>
+    <hr>
+<span id="hypotenuse"></span>
+     <label for="c-input">c=</label>
+     <input id="c-input"></input>
+    <br>
+          <button>compute</button>
+  
+  </body>
+</html>
