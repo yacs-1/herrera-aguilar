@@ -1,25 +1,19 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Weekly submission</title>
-    <link rel="stylesheet" href="https://yacs-1.github.io/herrera-aguilar/styles.css">
-  </head>
-  <body>
-    <h1 id="header">Pythag Approximator</h1>
-      <div id="gheader"></div>
-<script src="https://yacs-1.github.io/herrera-aguilar/global-header.js"></script>    
-    
-     <label for="a-input">a=</label>
-     <input id="a-input"></input>
-    <br>
-     <label for="b-input">b=</label>
-     <input id="b-input"></input>
-    <hr>
-<span id="hypotenuse"></span>
-     <label for="c-input">c=</label>
-     <input id="c-input"></input>
-    <br>
-          <button>compute</button>
+function computePythag() {
+  let _inputArr = document.querySelectorAll("input");
+  let _a = _inputArr[0].value;
+  let _b = _inputArr[1].value;
+  let _c = _inputArr[2].value;
   
-  </body>
-</html>
+ //if a is blank, compute a
+  if (_a =="" && _b !="" && _c !="") {
+    _inputArr[0].value = Math.sqrt(Math.pow(_input[2].value,2)-Math.pow(_inputArr[1].value,2));
+  } else if (_a !="" && _b =="" && _c !="") { //if b is blank compute b
+    _inputArr[1].value = Math.sqrt(Math.pow(_c, 2));
+  } else if (_a !="" && _b =="" && _c !="") { //if c is blank compute c
+    _inputArr[2].value = Math.sqrt(Math.pow(_b,2));
+  } else { //invalid input display error
+    window.alert("Please enter two side lengths");
+  }
+  
+}
+
