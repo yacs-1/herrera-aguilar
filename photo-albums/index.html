@@ -1,50 +1,49 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Photos</title>
-    <div id="gheader"></div>
+    <title>Photo-albums</title>
     <link rel="stylesheet" href="https://yacs-1.github.io/herrera-aguilar/styles.css">
-    <link rel="stylesheet" href="album.css">
+    <link rel="stylesheet" href="albums.css">
   </head>
+  <body>
+<div id="gheader"></div>
+<script src="https://yacs-1.github.io/herrera-aguilar/global-header.js"></script>
 
-<body>
-   <div id="gheader"></div>
-    <script src="https://yacs-1.github.io/herrera-aguilar/global-header.js"></script>
-
-  <script src="album.js"></script>
-<div id="big-container" onclick ="hideBig(this)">
+<div id="big-container" onclick="hideBig(this)">
   <div>
-    <img id="big-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUH8drtKWUroyA-AKjkDtmVcZCd8P1Jubwkg&amp;s">
+    <img id="big-img" src="https://yacs-1.github.io/herrera-aguilar/photo-albums/picture.webp" width="100%">
   </div>
 </div>
 
-<div class ="photo-row">
-<div class="photo-container">
-  <img onclick="showBig(this)" src="https://yacs-1.github.io/herrera-aguilar/photo-albums/nighttime.jpg">
-  <p>This is the ocean! So very wet.</p>
-</div>
+
+<div class="photo-row">
   <div class="photo-container">
-  <img onclick="showBig(this)"  src="https://yacs-1.github.io/herrera-aguilar/photo-albums/sun.jpeg">
-  <p>This is the ocean! So very wet.</p>
-</div>
+  <img onclick="showBig(this)" src="https://yacs-1.github.io/herrera-aguilar/photo-albums/sun.jpeg" width="100%">
+    <p> Sunset!</p>
+      </div>
   <div class="photo-container">
-  <img onclick="showBig(this)"  src="https://yacs-1.github.io/herrera-aguilar/photo-albums/sunset.jpg">
-  <p>This is the ocean! So very wet.</p>
-</div>
-</div>
-<div class ="photo-row">
-<div class="photo-container">
-  <img onclick="showBig(this)"  src="https://yacs-1.github.io/herrera-aguilar/photo-albums/sunset2.jpg">
-  <p>This is the ocean! So very wet.</p>
-</div>
-  <div class="photo-container">
-  <img onclick="showBig(this)"  src="https://yacs-1.github.io/herrera-aguilar/photo-albums/images.jpeg">
-  <p>This is the ocean! So very wet.</p>
-</div>
-  <div class="photo-container">
-  <img onclick="showBig(this)"  src="https://yacs-1.github.io/herrera-aguilar/photo-albums/picture.webp">
-  <p>This is the ocean! So very wet.</p>
-</div>
-  
-  </body>
-  </html>
+  <img onclick="showBig(this)"
+       src="https://yacs-1.github.io/herrera-aguilar/photo-albums/sunset.jpg" width="100%">
+    <p>ANOTHER ONE</p>
+    </div>
+   <div class="photo-container">
+     <img onclick="showBig(this)" 
+       src="https://yacs-1.github.io/herrera-aguilar/photo-albums/sunset2.jpg">
+     <p> This one looks cool</p>
+    </div>
+  </div>
+  <div class="photo-row">
+   <div class="photo-container">
+     <img onclick="showBig(this)"
+          src="https://yacs-1.github.io/herrera-aguilar/photo-albums/nighttime.jpg">
+     <p>This is my favorite!</p>
+   </div>
+   <div class="photo-container">
+     <img onclick="showBig(this)"
+          src="https://yacs-1.github.io/herrera-aguilar/photo-albums/images.jpeg">
+     <p>Last and maybe least</p>
+   </div>
+     <script src="albums.js"></script>
+    </body>
+   </html>
