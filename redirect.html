@@ -2,16 +2,16 @@
 <html>
   <head>
     <title>redirect</title>
-    <script>
+     <script>
       let urlParams = new URLSearchParams(window.location.search);
       let username = urlParams.get("variable1");
 
-      if (username == "secretPass") {
-      //redirect to secret page
-        window.location.replace("https://yacs-1.github.io/herrera-aguilar/secret.html")
+      if (username == "starspassword") {
+        //redirect to secret page
+        window.location.replace("https://yacs-1.github.io/herrera-aguilar/secret.html");
       } else {
-        //redirect to home
-         window.location.replace("https://yacs-1.github.io/herrera-aguilar/home.html")
+        //redirect to home page
+        window.location.replace("https://yacs-1.github.io/herrera-aguilar/home.html" + "?variable1=" + username);
       }
     </script>
   </head>
