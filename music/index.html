@@ -1,28 +1,53 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My favorite artists</title>
+    <title>Photo-albums</title>
     <link rel="stylesheet" href="https://yacs-1.github.io/herrera-aguilar/styles.css">
+    <link rel="stylesheet" href="albums.css">
   </head>
   <body>
-    <div id="gheader"></div>
-    <script src="https://yacs-1.github.io/herrera-aguilar/global-header.js"></script>
- 
-    <div id="intro">
-      <p>Hey there!! This page consists of some of my current favorite musicians along with my favorite songs by them :) I think i have pretty good taste in songs and encourage you to listen to these songs</p>
+<div id="gheader"></div>
+<script src="https://yacs-1.github.io/herrera-aguilar/global-header.js"></script>
+
+<div id="big-container" onclick="hideBig(this)">
+  <div>
+    <img id="big-img" src="https://yacs-1.github.io/herrera-aguilar/music/selfishmachinesalbum.jpg" width="100%">
+  </div>
+</div>
+
+
+<div class="photo-row">
+  <div class="photo-container">
+  <img onclick="showBig(this)" src="https://yacs-1.github.io/herrera-aguilar/music/swsalbum.jpeg" width="100%">
+    <p id="title">"Let's Cheers to This"</p>
+    <p id="small-text">This Sleeping with Sirens album is the reason i started listening to them!!</p>
+      </div>
+  <div class="photo-container">
+  <img onclick="showBig(this)"
+       src="https://yacs-1.github.io/herrera-aguilar/music/wallows.jpeg" width="100%">
+    <p id="title">"Model"</p>
+    <p id="small-text">This is a Wallows album, they are a newer band who sound awesome!!</p>
     </div>
-    <div id="band">
-      <p>Pierce the Veil</p>
-      <img src="">
+   <div class="photo-container">
+     <img onclick="showBig(this)" 
+       src="https://yacs-1.github.io/herrera-aguilar/music/folieaduex.jpg">
+     <p id="title">"Folie a Duex"</p>
+     <p id="small-text">Fall out Boy!! They have been one of my favorite bands since i was little, I saw them on tour last year!</p>
     </div>
-    
-     <div id="band">
-      <p>My Chemical Romance</p>
-    </div>
-    
-     <div id="band">
-      <p>Fall Out Boy</p>
-    </div>
-     </body>
-      
-</html>
+  </div>
+  <div class="photo-row">
+   <div class="photo-container">
+     <img onclick="showBig(this)"
+          src="https://yacs-1.github.io/herrera-aguilar/music/selfishmachinesalbum.jpg">
+     <p id="title">"Selfish Machines"</p>
+     <p id="small-text">My favorite album and band EVER! i have seen them live 3 trimes almost 4!</p>
+   </div>
+   <div class="photo-container">
+     <img onclick="showBig(this)"
+          src="https://yacs-1.github.io/herrera-aguilar/music/mcr.jpeg">
+     <p>Last and maybe least</p>
+   </div>
+     <script src="albums.js"></script>
+    </body>
+   </html>
